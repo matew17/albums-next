@@ -1,0 +1,5 @@
+.albumsWrapper {
+    display: flex;
+    padding: 24px;
+    overflow: auto;
+}

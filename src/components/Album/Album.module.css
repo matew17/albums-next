@@ -1,0 +1,44 @@
+.albumCard {
+    box-shadow: rgb(0 0 0 / 70%) 0px 0px 15px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    position: relative;
+    margin: 150px 16px;
+    min-width: 340px;
+    cursor: pointer;
+}
+
+.albumImage {
+    max-width: 250px;
+    height: 250px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 70px;
+    border-radius: 8px;
+}
+
+.albumDescription {
+    padding: 0 16px 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.liked {
+    position: absolute;
+    right: 16px;
+    top: 0;
+    font-size: 24px;
+}
